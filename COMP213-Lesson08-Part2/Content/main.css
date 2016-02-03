@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    padding: 10px;
-    float: left;
+    max-width: 80%;
+    padding: 5px 10%;
 }
 
 
@@ -22,16 +22,22 @@ header {
     margin: 15px 0;
 }
 
-section {
+main {
+    width: 70%;
+    padding: 10px 1%;
+    background-color: #FFFFFF;
+    float: left;
+}
 
-    border: 1px solid black;
-    padding: 10px;
-    margin: 15px; 
-    overflow: auto;
+section {
+    float: left;
+    max-width: 25%; 
+    padding: 1%;
 }
 footer {
     float: none;
     margin: 15px 0;
+    background-color: #CCCCFF;
 }
 
 
@@ -47,7 +53,6 @@ nav ul {
 }
 /* target all list items within a ul contained by nav*/
 nav ul li {
-    border: 1px dotted red;
     padding: 5px;
     display: inline;
 }
@@ -70,5 +75,10 @@ nav ul li a:hover {
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #d0b0b0;
+    overflow: auto;
+}
+
+/* all h2 tags in gallery*/
+#gallery h2 {
+    padding: 10px 10%;
 }
